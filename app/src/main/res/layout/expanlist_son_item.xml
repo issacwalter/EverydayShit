@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridLayout
+            android:id="@+id/son_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2">
+
+            <RadioButton
+                android:id="@+id/radio_button_1"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:text="按钮1" />
+
+
+            <RadioButton
+                android:id="@+id/radio_button_2"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:text="按钮2" />
+
+            <RadioButton
+                android:id="@+id/radio_button_3"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:text="按钮3" />
+
+            <RadioButton
+                android:id="@+id/radio_button_4"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:text="按钮4" />
+
+            <RadioButton
+                android:id="@+id/radio_button_5"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="wrap_content"
+                android:text="按钮5" />
+        </GridLayout>
+
+
+
+
+</LinearLayout>
